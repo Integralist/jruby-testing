@@ -1,0 +1,2 @@
+- `warble executable war`
+- `java -jar myapp.war` (http://localhost:8080/)
