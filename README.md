@@ -1,2 +1,2 @@
 - `warble executable war`
-- `java -jar myapp.war` (http://localhost:8080/)
+- `java -jar mycustomname.war` (http://localhost:8080/)
