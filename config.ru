@@ -6,4 +6,5 @@ run lambda { |env|
   [200, { 'Content-Type' => 'text/html' }, [File.exists?(index_file) ? File.read(index_file) : 'Hello World!!']]
 }
 
-# run with: rackup config.ru
+# run with: `rackup config.ru`
+# `bundle exec rackup -p 9292 config.ru & curl http://localhost:9292` (for Heroku testing)
